@@ -13,7 +13,7 @@ Project description (~1 paragraph)
 =======
 * [Nathan Van Alstine](https://github.com/NathanVa9/CIS350-HW2-Van_Alstine) (UI Design, Layouts, Interfaces)
 >>>>>>> 1fc084bd36d04e553994352a2c1eff8bbc4788ce
-* [Raphael Bahlbi] (https://github.com/BahlbiR/CIS350-HW2-Bahlbi)
+* [Raphael Bahlbi](https://github.com/BahlbiR/CIS350-HW2-Bahlbi)
 * Member 4 (Role 7, Role 9)
 * Member 5 (Role 1, Role 2)
 * Member 6 (Role 3, Role 4)
