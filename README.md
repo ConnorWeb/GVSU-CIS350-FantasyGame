@@ -9,7 +9,7 @@ Project description (~1 paragraph)
 ## Team Members and Roles
 
 * [Connor Webster](https://github.com/ConnorWeb/CIS350-HW2-Webster.git) (Combat and Class skills, Mapping)
-* Member 2 (Role 3, Role 4)
+* [Nathan Van Alstine](https://github.com/NathanVa9/CIS350-HW2-Van_Alstine) (UI Design, Layouts, Interfaces)
 * Member 3 (Role 5, Role 6)
 * Member 4 (Role 7, Role 9)
 * Member 5 (Role 1, Role 2)
