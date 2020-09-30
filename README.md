@@ -13,7 +13,7 @@ Project description (~1 paragraph)
 * [Raphael Bahlbi](https://github.com/BahlbiR/CIS350-HW2-Bahlbi) (Mapping, Player levelling)
 * [Amber Swanson](https://github.com/demiacloud/CIS350-HW2-Swanson) (Enemies, Skill Interaction)
 * [Connor Muma](https://github.com/ConnorMuma/CIS350-HW2-Muma)  (Mapping, Enemies, Class skills)
-* Member 6 (Role 3, Role 4)
+* [Ricardo Herrera-Santos](https://github.com/herrerri/CIS350-HW2-HerreraSantos) (Combat, Game Mechanics)
 ## Prerequisites
 
 ## Run Instructions
