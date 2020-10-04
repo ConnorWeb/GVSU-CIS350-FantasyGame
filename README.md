@@ -12,8 +12,8 @@ Project description (~1 paragraph)
 * [Nathan Van Alstine](https://github.com/NathanVa9/CIS350-HW2-Van_Alstine) (UI Design, Layouts, Interfaces)
 * [Raphael Bahlbi](https://github.com/BahlbiR/CIS350-HW2-Bahlbi) (Mapping, Player levelling)
 * [Amber Swanson](https://github.com/demiacloud/CIS350-HW2-Swanson) (Enemies, Skill Interaction)
-* Member 5 (Role 1, Role 2)
-* Member 6 (Role 3, Role 4)
+* [Connor Muma](https://github.com/ConnorMuma/CIS350-HW2-Muma)  (Mapping, Enemies, Class skills)
+* [Ricardo Herrera-Santos](https://github.com/herrerri/CIS350-HW2-HerreraSantos) (Combat, Game Mechanics)
 ## Prerequisites
 
 ## Run Instructions
