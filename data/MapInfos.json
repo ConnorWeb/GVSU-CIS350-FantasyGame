@@ -1,6 +1,9 @@
 [
 null,
-{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":816,"scrollY":800},
-{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":2048,"scrollY":656},
-{"id":3,"expanded":false,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":1390,"scrollY":1494}
+{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":2457,"scrollY":1383},
+{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":2433,"scrollY":1437},
+{"id":3,"expanded":false,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":2433,"scrollY":1497},
+{"id":4,"expanded":true,"name":"TestTavern","order":4,"parentId":1,"scrollX":2457,"scrollY":1383},
+{"id":5,"expanded":true,"name":"TestTavernUpstairs","order":5,"parentId":4,"scrollX":2457,"scrollY":1383},
+{"id":6,"expanded":false,"name":"TestTavernBeds","order":6,"parentId":5,"scrollX":2457,"scrollY":1383}
 ]
