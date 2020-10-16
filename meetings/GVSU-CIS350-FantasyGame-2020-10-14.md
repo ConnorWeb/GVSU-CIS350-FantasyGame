@@ -1,6 +1,6 @@
 Team name: Fantasy Game
 
-Members present: Amber Swanson, Connor Webster, Connor Muma, Raphael Bahlbi, Ricardo Herrera-Santos, Nathan Van Alstein
+Members present: Amber Swanson, Connor Webster, Connor Muma, Raphael Bahlbi, Ricardo Herrera-Santos
 
 Date: 10/14/2020
 
