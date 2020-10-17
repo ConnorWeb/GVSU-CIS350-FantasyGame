@@ -1,6 +1,7 @@
 # Overview
 
-The purposes of this document is to collate and describe all functional and nonfunctional requirements.
+The purposes of this document is to communicate a plan for the development for a turn based dungeon crawler game. In this document
+you will see all the functional and nonfunctional requirmeents collated and described for the necessary qualities and features of the game.
 
 # Functional Requirements
 
