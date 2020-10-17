@@ -1,9 +1,9 @@
 [
 null,
-{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":1081.3333333333333,"scrollY":825.3333333333334},
-{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":2433,"scrollY":1497},
-{"id":3,"expanded":false,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":2429,"scrollY":1497.5},
-{"id":4,"expanded":true,"name":"TestTavern","order":4,"parentId":1,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":5,"expanded":true,"name":"TestTavernUpstairs","order":5,"parentId":4,"scrollX":459,"scrollY":312.5},
-{"id":6,"expanded":false,"name":"TestTavernBeds","order":6,"parentId":5,"scrollX":459,"scrollY":312.5}
+{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":1786.909090909091,"scrollY":1005.8181818181819},
+{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":1769.4545454545455,"scrollY":1874.1818181818182},
+{"id":3,"expanded":false,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":1769.4545454545455,"scrollY":1874.1818181818182},
+{"id":4,"expanded":true,"name":"TestTavern","order":4,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":5,"expanded":true,"name":"TestTavernUpstairs","order":5,"parentId":4,"scrollX":832,"scrollY":640},
+{"id":6,"expanded":false,"name":"TestTavernBeds","order":6,"parentId":5,"scrollX":832,"scrollY":640}
 ]
