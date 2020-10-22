@@ -10,6 +10,6 @@ null,
 {"id":8,"expanded":true,"name":"Floor2","order":9,"parentId":0,"scrollX":1786.909090909091,"scrollY":1005.8181818181819},
 {"id":9,"expanded":true,"name":"Floor2South","order":10,"parentId":8,"scrollX":1786.909090909091,"scrollY":1005.8181818181819},
 {"id":10,"expanded":false,"name":"Item Shop","order":8,"parentId":1,"scrollX":1786.909090909091,"scrollY":1005.8181818181819},
-{"id":11,"expanded":true,"name":"Forest Town","order":11,"parentId":8,"scrollX":1769.4545454545455,"scrollY":1230.5454545454545},
+{"id":11,"expanded":true,"name":"Forest Town","order":11,"parentId":8,"scrollX":1769.4545454545455,"scrollY":1361.4545454545455},
 {"id":12,"expanded":false,"name":"Weapon Shop","order":12,"parentId":11,"scrollX":1786.909090909091,"scrollY":1005.8181818181819}
 ]
