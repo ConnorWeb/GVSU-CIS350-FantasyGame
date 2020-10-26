@@ -1,9 +1,18 @@
 [
 null,
-{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":989,"scrollY":1135.5},
-{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":2429,"scrollY":1437.5},
-{"id":3,"expanded":false,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":2429,"scrollY":1497.5},
+{"id":1,"expanded":true,"name":"TestFloor","order":1,"parentId":0,"scrollX":989,"scrollY":935.5},
+{"id":2,"expanded":false,"name":"TestFloorWest","order":2,"parentId":1,"scrollX":1374,"scrollY":2575.5},
+{"id":3,"expanded":true,"name":"TestFloorNorth","order":3,"parentId":1,"scrollX":916,"scrollY":2575.5},
 {"id":4,"expanded":true,"name":"TestTavern","order":4,"parentId":1,"scrollX":459,"scrollY":312.5},
 {"id":5,"expanded":true,"name":"TestTavernUpstairs","order":5,"parentId":4,"scrollX":459,"scrollY":312.5},
-{"id":6,"expanded":false,"name":"TestTavernBeds","order":6,"parentId":5,"scrollX":459,"scrollY":312.5}
+{"id":6,"expanded":false,"name":"TestTavernBeds","order":6,"parentId":5,"scrollX":459,"scrollY":312.5},
+{"id":7,"expanded":true,"name":"TestFloorBoss","order":7,"parentId":1,"scrollX":451,"scrollY":407.5},
+{"id":8,"expanded":true,"name":"Floor2","order":9,"parentId":0,"scrollX":819,"scrollY":461},
+{"id":9,"expanded":true,"name":"Floor2South","order":10,"parentId":8,"scrollX":2457,"scrollY":1383},
+{"id":10,"expanded":false,"name":"Item Shop","order":8,"parentId":1,"scrollX":451,"scrollY":407.5},
+{"id":11,"expanded":true,"name":"Forest Town","order":11,"parentId":8,"scrollX":1081,"scrollY":1171},
+{"id":12,"expanded":false,"name":"Weapon Shop","order":12,"parentId":11,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":13,"expanded":true,"name":"F2Tavern","order":13,"parentId":11,"scrollX":501,"scrollY":304.5},
+{"id":14,"expanded":true,"name":"TestTavernUpstairs","order":14,"parentId":13,"scrollX":2457,"scrollY":1383},
+{"id":15,"expanded":false,"name":"TestTavernBeds","order":15,"parentId":14,"scrollX":2457,"scrollY":1383}
 ]
