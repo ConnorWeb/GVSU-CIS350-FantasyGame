@@ -34,7 +34,7 @@ null,
 {"id":32,"expanded":false,"name":"CrystalCave","order":37,"parentId":21,"scrollX":1804.3636363636365,"scrollY":1630.909090909091},
 {"id":33,"expanded":false,"name":"Cliff Cave","order":15,"parentId":26,"scrollX":786.8571428571428,"scrollY":535.7142857142857},
 {"id":34,"expanded":true,"name":"SnowTavern","order":26,"parentId":18,"scrollX":688.5,"scrollY":468.75},
-{"id":35,"expanded":false,"name":"F3Tavern","order":27,"parentId":34,"scrollX":688.5,"scrollY":468.75},
-{"id":36,"expanded":true,"name":"F3TavernUpstairs","order":28,"parentId":35,"scrollX":786.8571428571428,"scrollY":535.7142857142857},
-{"id":37,"expanded":false,"name":"F3TavernBeds","order":29,"parentId":35,"scrollX":786.8571428571428,"scrollY":535.7142857142857}
+{"id":35,"expanded":true,"name":"F3Tavern","order":27,"parentId":34,"scrollX":688.5,"scrollY":468.75},
+{"id":36,"expanded":true,"name":"F3TavernUpstairs","order":28,"parentId":35,"scrollX":688.5,"scrollY":468.75},
+{"id":37,"expanded":false,"name":"F3TavernBeds","order":29,"parentId":35,"scrollX":832,"scrollY":640}
 ]
