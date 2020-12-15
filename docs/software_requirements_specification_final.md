@@ -88,7 +88,6 @@ Tests done to ensure functions in the game are working properly, and seek out po
 | ST4 | Special Items | 1. Complete the challenge to acquire a special item 2. Go to location item is to be used 3. Use item | Keyboard or mouse commands | Successfull unlocking of game feature | As expected | Pass | FR5, FR 14 |
 | ST5 | NPC Dialogue System | 1.Talk to a NPC 2. Choose from an option 3. Buy an item 4. Update the dialogue tree 5. Update the NPC event so the NPC is no longer a visible on-map event | Mouse click on dialogue interface| The in game NPC dailogue system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR3,FR11,FR12,FR14,FR15,NFR8,NFR9 |
 # Software Artifacts
-<Describe the purpose of this section>
 * [Midterm Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Midterm%20Presentation.pdf)
 * [Final Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Final%20Presentation.pdf)
 * [Burndown Chart](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Burn_Down_Chart.pdf)
