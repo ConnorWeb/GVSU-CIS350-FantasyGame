@@ -17,3 +17,7 @@ Project description (~1 paragraph)
 ## Prerequisites
 
 ## Run Instructions
+* Go to https://drive.google.com/drive/u/1/folders/1BDudU48JmjwfNmsY29uJAEftlBIRd-ec
+* Download the .zip file 
+* Extract the file
+* Click on Game.exe to play!
