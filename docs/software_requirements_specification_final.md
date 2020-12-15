@@ -57,17 +57,18 @@ This section lays out all the functional and non-functional requirements of the 
 | NFR15 | There shall be 20 save files available to save and load games. | TC6 |
 
 # Test Specification
-<Description of what this section is>
+Description of what this section is
 ## Unit tests
-(copy/paste the below table a minimum of 10 times)
-| ID | Description | Steps | Input Values | Expected Output | Actual Output
-| Pass/Fail | Requirement Link |
-| :-------------: | :----------: | :----------: | :----------: | :----------:
-| :----------: | :----------: | :----------: |
-| TC1 | <TC1 description> | <steps to execute TC1> | <input values to this
-test case> | <expected output as a result of test case> | <actual output of
-test case> | <did it pass or fail?> | <requirement IDs this test case is
-linked to> |
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| UT1 | Game Creates Self on Startup | 1.Run Game 2.Navigate menu to New Game 3.Select New Game| Mouse click/Keyboard input to select menu options | Successful game start with player starting in first floor | As expected | Pass | Placeholder |
+| UT2 | Testing basic movement with keyboard input | 1. Start | Four arrow keys on keyboard  | User should move north, south, east, and west when holding/pressing "Up","Down","Right","Left" respectively | As expected | Pass | Placeholder |
+| UT3 | Testing basic movement with mouse input |  | Mouse left click on map tile  | User should move to location that was selected by mouse input if location is available | As expected | Pass | Placeholder |
+| UT4 | Menu Navigation |  |  | User should be able to interact with menu options through use of the keyboard/mouse | As expected | Pass | Placeholder |
+| UT5 | Chest Interaction |  |  | User should be able to interact with  | As expected | Pass | Placeholder |
+| UT6 | NPC Interaction |  |  | User should be able to interact with NPC | As expected | Pass | Placeholder |
+| UT7 | Combat Win |  |  | User should be able to continue progressing through their current floor | As expected | Pass | Placeholder |
+| UT8 | Combat Loss |   | 1.  | User should be returned to the main menu | As expected | Pass | Placeholder |
 ## Integration tests
 (copy/paste the above table a minimum of 5 times)
 ## System tests
