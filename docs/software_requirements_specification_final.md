@@ -89,4 +89,6 @@ Tests done to ensure functions in the game are working properly, and seek out po
 | ST5 | NPC Dialogue System | 1.Talk to a NPC 2. Choose from an option 3. Buy an item 4. Update the dialogue tree 5. Update the NPC event so the NPC is no longer a visible on-map event | Mouse click on dialogue interface| The in game NPC dailogue system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR3,FR11,FR12,FR14,FR15,NFR8,NFR9 |
 # Software Artifacts
 <Describe the purpose of this section>
-* [I am a link](to_some_file.pdf)
+* [Midterm Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Midterm%20Presentation.pdf)
+* [Final Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Final%20Presentation.pdf)
+* [Burndown Chart](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Burn_Down_Chart.pdf)
