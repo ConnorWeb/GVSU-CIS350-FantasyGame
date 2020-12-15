@@ -75,7 +75,7 @@ Description of what this section is
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | IT1 | Game spawns user at beginnig of floor after finishing previous one. | 1. Defeat Final Boss. 2. Walk through "passage" to the next floor. | Mouse input to attack final boss and keyboard input to walk through the "passage" | The user spawns at the beginning of the next level | The user spawns at the beginning of the next level. | Pass | FR1 |
-| IT2 | Shop Transactions | 1.Talk to merchant NPC 2. Select and item to purchase  | Mouse left click on NPC and item | User should have item in inventory and lose the correct ammount of gold | As expected | Pass | Placeholder |
+| IT2 | Shop Transactions | 1.Talk to merchant NPC 2. Select and item to purchase  | Mouse left click on NPC and item | User should have item in inventory and lose the correct ammount of gold | As expected | Pass | NFR10 |
 | IT3 | NPC joins user's party after completing their required task. | 1. The user must ask the NPC to join their party. 2. The user must accomplish whatever task is asked of them to recruit them. 3. The user must talk to the NPC after finishing the task to finally recruit them.| Mouse and keyboard inputs to talk to NPCs and accomplish their tasks. | The NPC accepts their request and starts following the user | As Expected | Pass | FR11, FR12 |
 | IT4 | Key/Quest Items | 1.Aquire Key item 2. Use key item in applicable area | Mouse click on event that uses key item | Event should respond to if player has Key/Quest item in inventory | As expected | Pass | FR5,FR12 |
 ## System tests
