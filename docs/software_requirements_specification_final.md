@@ -27,7 +27,7 @@ This section lays out all the functional and non-functional requirements of the 
 | FR11 | The player shall have the ability to recruit certain NPC’s into their party. | TC1 |
 | FR12 | Recruitable NPCs shall have a requirement that must be met before they join the user’s party. | TBD |
 | FR13 | Recruitable NPC’s shall have the ability to assist in combat. | TC1,TC2 |
-| FR14 | Events shall be triggered when an NPC's requirements have been met. | TC1,TC2 |
+| FR14 | Events shall be triggered when their requirements have been met. | TC1,TC2 |
 | FR15 | Non-recruitable NPC's shall offer items and quests to the user. | TC1,TC2 |
 
 ## Non-Functional Requirements
@@ -61,18 +61,27 @@ Description of what this section is
 ## Unit tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| UT1 | Game Creates Self on Startup | 1.Run Game 2.Navigate menu to New Game 3.Select New Game| Mouse click/Keyboard input to select menu options | Successful game start with player starting in first floor | As expected | Pass | Placeholder |
-| UT2 | Testing basic movement with keyboard input | 1. Start | Four arrow keys on keyboard  | User should move north, south, east, and west when holding/pressing "Up","Down","Right","Left" respectively | As expected | Pass | Placeholder |
-| UT3 | Testing basic movement with mouse input |  | Mouse left click on map tile  | User should move to location that was selected by mouse input if location is available | As expected | Pass | Placeholder |
-| UT4 | Menu Navigation |  |  | User should be able to interact with menu options through use of the keyboard/mouse | As expected | Pass | Placeholder |
-| UT5 | Chest Interaction |  |  | User should be able to interact with  | As expected | Pass | Placeholder |
-| UT6 | NPC Interaction |  |  | User should be able to interact with NPC | As expected | Pass | Placeholder |
-| UT7 | Combat Win |  |  | User should be able to continue progressing through their current floor | As expected | Pass | Placeholder |
-| UT8 | Combat Loss |   | 1.  | User should be returned to the main menu | As expected | Pass | Placeholder |
+| UT1 | Game Creates Self on Startup | 1.Run Game 2.Navigate menu to New Game 3.Select New Game| Mouse click/Keyboard input to select menu options | Successful game start with player starting in first floor | As expected | Pass | NFR11 |
+| UT2 | Testing basic movement with keyboard input | 1.Run Game 2.Start New Game file 3.Key Input | Four arrow keys on keyboard  | User should move north, south, east, and west when holding/pressing "Up","Down","Right","Left" respectively | As expected | Pass | NFR14 |
+| UT3 | Testing basic movement with mouse input | 1.Run Game 2.Start New Game file 3.Mouse Input | Mouse left click on map tile  | User should move to location that was selected by mouse input if location is available | As expected | Pass | NFR14 |
+| UT4 | In-Game Menu Navigation | 1.Run Game 2.Start New Game file 3.Press ESC 4.Key Input | Mouse left click on options/Keyboard arrow keys and spacebar for select | User should be able to interact with menu options through use of the keyboard/mouse | As expected | Pass | NFR6,NFR14 |
+| UT5 | Chest Interaction | 1.Run Game 2.Start New Game file 3.Travel to chest at bottom left of first floor area 4.Key Input| Mouse left click or spacebar when facing chest | User should be able to interact with chests | As expected | Pass | FR11 |
+| UT6 | NPC Interaction | 1.Run Game 2.Start New Game file 3.Travel upwards to first NPC 4.Key Input | Mouse left click or spacebar when facing chest | User should be able to interact with NPC | As expected | Pass | FR11,FR15 |
+| UT7 | Combat Win | 1.Run Game 2.Start New Game file 3.Travel until a random fight encounter occurs 4.Continue using base attack until enemy is defeated | Spacebar input or mouse left click on Attack menu item | User should be able to continue progressing through their current floor | As expected | Pass | FR8 |
+| UT8 | Combat Loss | 1.Run Game 2.Start New Game file 3.Travel until a random fight encounter occurs 4.Continue using guard until user is defeated | Spacebar input or mouse left click on Guard menu item | User should be returned to the main menu | As expected | Pass | FR8 |
+| UT9 | Save file | 1.Run Game 2.Start New Game file 3.Press ESC 4.Navigate to Save and select a file | Spacebar input or mouse left click in in-game menus | User should be returned to in-game menu and when Save is selected, a game file should appear  | As expected | Pass | NFR12,NFR15 |
+| UT10 | Load file | 1.Run Game 2.Navigate and select Continue in Main Menu 3.Select saved game file | Spacebar input or mouse left click in in-game menus | User should appear in previously explored floor when save file occurred | As expected | Pass | NFR12,NFR15 |
 ## Integration tests
-(copy/paste the above table a minimum of 5 times)
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| IT1 | Game spawns user at beginnig of floor after finishing previous one. | 1. Defeat Final Boss. 2. Walk through "passage" to the next floor. | Mouse input to attack final boss and keyboard input to walk through the "passage" | The user spawns at the beginning of the next level | The user spawns at the beginning of the next level. | Pass | FR1 |
+| IT2 | Shop Transactions | 1.Talk to merchant NPC 2. Select and item to purchase  | Mouse left click on NPC and item | User should have item in inventory and lose the correct ammount of gold | As expected | Pass | Placeholder |
+| IT3 | NPC joins user's party after completing their required task. | 1. The user must ask the NPC to join their party. 2. The user must accomplish whatever task is asked of them to recruit them. 3. The user must talk to the NPC after finishing the task to finally recruit them.| Mouse and keyboard inputs to talk to NPCs and accomplish their tasks. | The NPC accepts their request and starts following the user | As Expected | Pass | FR11, FR12 |
+| IT4 | Key/Quest Items | 1.Aquire Key item 2. Use key item in applicable area | Mouse click on event that uses key item | Event should respond to if player has Key/Quest item in inventory | As expected | Pass | FR5,FR12 |
 ## System tests
-(copy/paste the above table a minimum of 5 times)
+| ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
+| :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| ST1 | Game Completion | 1. Defeat F1 boss 2. Defeat F2 boss 3. Defeat F3 boss 4. Defeat F4 boss | Mouse or keyboard to navigate floors, mouse or keyboard to send commands in battle | Win Screen | | | FR1, FR6, FR9, FR14 |
 # Software Artifacts
 <Describe the purpose of this section>
 * [I am a link](to_some_file.pdf)
