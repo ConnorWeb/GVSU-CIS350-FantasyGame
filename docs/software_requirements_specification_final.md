@@ -57,7 +57,7 @@ This section lays out all the functional and non-functional requirements of the 
 | NFR15 | There shall be 20 save files available to save and load games. | TC6 |
 
 # Test Specification
-Description of what this section is
+Tests done to ensure functions in the game are working properly, and seek out possible bugs to be fixed.
 ## Unit tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
@@ -78,10 +78,15 @@ Description of what this section is
 | IT2 | Shop Transactions | 1.Talk to merchant NPC 2. Select and item to purchase  | Mouse left click on NPC and item | User should have item in inventory and lose the correct ammount of gold | As expected | Pass | NFR10 |
 | IT3 | NPC joins user's party after completing their required task. | 1. The user must ask the NPC to join their party. 2. The user must accomplish whatever task is asked of them to recruit them. 3. The user must talk to the NPC after finishing the task to finally recruit them.| Mouse and keyboard inputs to talk to NPCs and accomplish their tasks. | The NPC accepts their request and starts following the user | As Expected | Pass | FR11, FR12 |
 | IT4 | Key/Quest Items | 1.Aquire Key item 2. Use key item in applicable area | Mouse click on event that uses key item | Event should respond to if player has Key/Quest item in inventory | As expected | Pass | FR5,FR12 |
+| IT5 | Seamless music continuation between areas that use same track | 1. Enter area, track starts 2. Enter connected area that uses same track 3. Repeat step 2 | Mouse or keyboard input on area transition tiles | Track should continue seamlessly or stop in an area of different track | As expected | Pass | FR1,FR3,NFR11,NFR7,NFR3 |
 ## System tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 | ST1 | Game Completion | 1. Defeat F1 boss 2. Defeat F2 boss 3. Defeat F3 boss 4. Defeat F4 boss | Mouse or keyboard to navigate floors, mouse or keyboard to send commands in battle | Win Screen | | | FR1, FR6, FR9, FR14 |
+| ST2 | Party System | 1.Switch order of party members. 2. Equip an item. 3. Unequip an item. 4. Use skills to affect party outside of battle. 5. Add a new party member. | Mouse click on party interface | The in game party system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR11,FR12,FR13 |
+| ST3 | Combat System | 1.Enter combat 2. Attack and use skills 3. Damage enemies 4. Use items. 5. Take damage from enemy attacks and skills 6. Get affected by something that alters state 7. Leave combat. | Arrow keys or mouse clicks on combat UI  | The in game combat system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR8,FR10,FR13,NFR10 |
+| ST4 | Special Items | 1. Complete the challenge to acquire a special item 2. Go to location item is to be used 3. Use item | Keyboard or mouse commands | Successfull unlocking of game feature | As expected | Pass | FR5, FR 14 |
+| ST5 | NPC Dialogue System | 1.Talk to a NPC 2. Choose from an option 3. Buy an item 4. Update the dialogue tree 5. Update the NPC event so the NPC is no longer a visible on-map event | Mouse click on dialogue interface| The in game NPC dailogue system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR3,FR11,FR12,FR14,FR15,NFR8,NFR9 |
 # Software Artifacts
 <Describe the purpose of this section>
 * [I am a link](to_some_file.pdf)
