@@ -6,55 +6,55 @@ This section lays out all the functional and non-functional requirements of the 
 ### Interactive Map
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR1 | The player shall be able to progress to different areas of the map. | TC1 |
+| FR1 | The player shall be able to progress to different areas of the map. | IT1, IT5, ST1 |
 | FR2 | Each area shall have a tavern. | TC2 |
-| FR3 | The map shall get updated after certain events are completed. | TC1,TC2 |
+| FR3 | The map shall get updated after certain events are completed. | TC1,TC2, IT5, ST5 |
 | FR4 | Enemy encounters shall be turned off when defeating the final floor boss, and turned on when entering a new floor. | TC1,TC2 |
-| FR5 | Certain areas shall be blocked off until certain items are obtained. | TC1,TC2 |
+| FR5 | Certain areas shall be blocked off until certain items are obtained. | TC1,TC2, IT4, ST4 |
 
 ### Combat
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR6 | There shall be multiple enemies to fight. | TC1 |
-| FR7 | Each encounter with an enemy shall be random. | TBD |
-| FR8 | There shall be multiple methods of attacking enemies. | TC1,TC2 |
-| FR9 | Each area shall have a final boss fight. | TC1,TC2 |
-| FR10 | Special enemies shall not include the option to escape. | TC1,TC2 |
+| FR6 | There shall be multiple enemies to fight. | TC1, ST1 |
+| FR7 | Each encounter with an enemy shall be random. | ... |
+| FR8 | There shall be multiple methods of attacking enemies. | UT7, UT8, ST3 |
+| FR9 | Each area shall have a final boss fight. | TC1,TC2, ST1 |
+| FR10 | Special enemies shall not include the option to escape. | TC1,TC2, ST3 |
 
 ### NPCs
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| FR11 | The player shall have the ability to recruit certain NPC’s into their party. | TC1 |
-| FR12 | Recruitable NPCs shall have a requirement that must be met before they join the user’s party. | TBD |
-| FR13 | Recruitable NPC’s shall have the ability to assist in combat. | TC1,TC2 |
-| FR14 | Events shall be triggered when their requirements have been met. | TC1,TC2 |
-| FR15 | Non-recruitable NPC's shall offer items and quests to the user. | TC1,TC2 |
+| FR11 | The player shall have the ability to recruit certain NPC’s into their party. | UT5, UT6, IT3, ST2, ST5 |
+| FR12 | Recruitable NPCs shall have a requirement that must be met before they join the user’s party. | IT3, IT4, ST2, ST5 |
+| FR13 | Recruitable NPC’s shall have the ability to assist in combat. | TC1,TC2, ST2, ST3 |
+| FR14 | Events shall be triggered when their requirements have been met. | TC1,TC2, ST1, ST4, ST5 |
+| FR15 | Non-recruitable NPC's shall offer items and quests to the user. | UT6, ST5 |
 
 ## Non-Functional Requirements
 ### Map aesthetics
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
 | NFR1 | Each map shall have different areas. | TC4 |
-| NFR2 | Each area shall have a tavern. | TBD |
-| NFR3 | Each area shall have a unique theme. | TC6 |
+| NFR2 | Each area shall have a tavern. | ... |
+| NFR3 | Each area shall have a unique theme. | IT5 |
 | NFR4 | Every character shall have a unique look. | TC6 |
 | NFR5 | Enemies shall have a theme matching the theme of the floor they are on. | TC6 |
 ### UI
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR6 | The UI shall be simple to navigate. | TC4 |
-| NFR7 | The UI shall be consistent throughout the game. | TBD |
-| NFR8 | The UI shall display the name of the character who is speaking. | TC6 |
-| NFR9 | The UI shall include a picture of the character who is speaking. | TC6 |
-| NFR10 | The UI shall display the items in the user's inventory and the quantity of said items. | TC6 |
+| NFR6 | The UI shall be simple to navigate. | TC4, UT4 |
+| NFR7 | The UI shall be consistent throughout the game. | IT5 |
+| NFR8 | The UI shall display the name of the character who is speaking. | TC6, ST5 |
+| NFR9 | The UI shall include a picture of the character who is speaking. | TC6, ST5 |
+| NFR10 | The UI shall display the items in the user's inventory and the quantity of said items. | IT2, ST3 |
 ### Performance
 | ID | Requirement | Test Cases |
 | :-------------: | :----------: | :----------: |
-| NFR11 | The game shall not experience large interruptions to gameplay. | TC4 |
-| NFR12 | The player shall have the option to save their progress. | TBD |
+| NFR11 | The game shall not experience large interruptions to gameplay. | UT1, IT5 |
+| NFR12 | The player shall have the option to save their progress. | UT9, UT10 |
 | NFR13 | The game shall maintain a stable framerate. | TC6 |
-| NFR14 | The game responds to input without noticeable lag. | TC6 |
-| NFR15 | There shall be 20 save files available to save and load games. | TC6 |
+| NFR14 | The game responds to input without noticeable lag. | UT2, UT3, UT4 |
+| NFR15 | There shall be 20 save files available to save and load games. | UT9, UT10 |
 
 # Test Specification
 Tests done to ensure functions in the game are working properly, and seek out possible bugs to be fixed.
@@ -74,7 +74,7 @@ Tests done to ensure functions in the game are working properly, and seek out po
 ## Integration tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| IT1 | Game spawns user at beginnig of floor after finishing previous one. | 1. Defeat Final Boss. 2. Walk through "passage" to the next floor. | Mouse input to attack final boss and keyboard input to walk through the "passage" | The user spawns at the beginning of the next level | The user spawns at the beginning of the next level. | Pass | FR1 |
+| IT1 | Game spawns user at beginnig of floor after finishing previous one. | 1. Defeat Final Boss. 2. Walk through "passage" to the next floor. | Mouse input to attack final boss and keyboard input to walk through the "passage" | The user spawns at the beginning of the next level | As Expected | Pass | FR1 |
 | IT2 | Shop Transactions | 1.Talk to merchant NPC 2. Select and item to purchase  | Mouse left click on NPC and item | User should have item in inventory and lose the correct ammount of gold | As expected | Pass | NFR10 |
 | IT3 | NPC joins user's party after completing their required task. | 1. The user must ask the NPC to join their party. 2. The user must accomplish whatever task is asked of them to recruit them. 3. The user must talk to the NPC after finishing the task to finally recruit them.| Mouse and keyboard inputs to talk to NPCs and accomplish their tasks. | The NPC accepts their request and starts following the user | As Expected | Pass | FR11, FR12 |
 | IT4 | Key/Quest Items | 1.Aquire Key item 2. Use key item in applicable area | Mouse click on event that uses key item | Event should respond to if player has Key/Quest item in inventory | As expected | Pass | FR5,FR12 |
@@ -88,6 +88,10 @@ Tests done to ensure functions in the game are working properly, and seek out po
 | ST4 | Special Items | 1. Complete the challenge to acquire a special item 2. Go to location item is to be used 3. Use item | Keyboard or mouse commands | Successfull unlocking of game feature | As expected | Pass | FR5, FR 14 |
 | ST5 | NPC Dialogue System | 1.Talk to a NPC 2. Choose from an option 3. Buy an item 4. Update the dialogue tree 5. Update the NPC event so the NPC is no longer a visible on-map event | Mouse click on dialogue interface| The in game NPC dailogue system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR3,FR11,FR12,FR14,FR15,NFR8,NFR9 |
 # Software Artifacts
+* [Combat System Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/Combat%20System.pdf)
+* [Map Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/MapUML.pdf)
+* [Use Case Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/NPC%20System.pdf)
+* [ NPC Use Case Description](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/NPC%20System%20Use%20Case%20Description.pdf)
+* [Burndown Chart](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Burn_Down_Chart.pdf)
 * [Midterm Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Midterm%20Presentation.pdf)
 * [Final Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Final%20Presentation.pdf)
-* [Burndown Chart](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Burn_Down_Chart.pdf)
