@@ -90,7 +90,7 @@ Tests done to ensure functions in the game are working properly, and seek out po
 # Software Artifacts
 * [Combat System Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/Combat%20System.pdf)
 * [Map Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/MapUML.pdf)
-* [Use Case Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/NPC%20System.pdf)
+* [NPC Diagram](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/NPC%20System.pdf)
 * [ NPC Use Case Description](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/artifacts/use_case_diagrams/NPC%20System%20Use%20Case%20Description.pdf)
 * [Burndown Chart](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Burn_Down_Chart.pdf)
 * [Midterm Presentation](https://github.com/ConnorWeb/GVSU-CIS350-FantasyGame/blob/master/docs/Midterm%20Presentation.pdf)
