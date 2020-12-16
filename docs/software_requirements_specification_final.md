@@ -82,7 +82,7 @@ Tests done to ensure functions in the game are working properly, and seek out po
 ## System tests
 | ID | Description | Steps | Input Values | Expected Output | Actual Output | Pass/Fail | Requirement Link |
 | :-------------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| ST1 | Game Completion | 1. Defeat F1 boss 2. Defeat F2 boss 3. Defeat F3 boss 4. Defeat F4 boss | Mouse or keyboard to navigate floors, mouse or keyboard to send commands in battle | Win Screen | | | FR1, FR6, FR9, FR14 |
+| ST1 | Game Completion | 1. Defeat F1 boss 2. Defeat F2 boss 3. Defeat F3 boss 4. Defeat F4 boss | Mouse or keyboard to navigate floors, mouse or keyboard to send commands in battle | Win Screen | As expected | Pass | FR1, FR6, FR9, FR14 |
 | ST2 | Party System | 1.Switch order of party members. 2. Equip an item. 3. Unequip an item. 4. Use skills to affect party outside of battle. 5. Add a new party member. | Mouse click on party interface | The in game party system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR11,FR12,FR13 |
 | ST3 | Combat System | 1.Enter combat 2. Attack and use skills 3. Damage enemies 4. Use items. 5. Take damage from enemy attacks and skills 6. Get affected by something that alters state 7. Leave combat. | Arrow keys or mouse clicks on combat UI  | The in game combat system should all be functioning correctly and be able to do all the steps mentioned | As expected | Pass | FR8,FR10,FR13,NFR10 |
 | ST4 | Special Items | 1. Complete the challenge to acquire a special item 2. Go to location item is to be used 3. Use item | Keyboard or mouse commands | Successfull unlocking of game feature | As expected | Pass | FR5, FR 14 |
